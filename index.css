@@ -9,64 +9,110 @@ html, body {
 
 body {
     height: 100vh;
-    width: 550px;
+    width: 100vw;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: url("/wood-elf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+    /* Photo by <a href="https://unsplash.com/@jrkorpa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jr Korpa</a> on <a href="https://unsplash.com/photos/-g-vfP1hpuQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   */
     background-color: #219ebc;
+    font-family: 'Dancing Script', cursive;
     color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #540b0e;
+    margin: auto;
+    width: 50%;
+    border-radius: 5px;
+}
+
+h2,
+h3 {
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #ffdd32;
+    margin-top: 0.5em;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 1em;
+    color: #ffe8d6;
 }
 
 .words-container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding: 10px;
+    gap: 1em;
+    padding: 0.625em;
     margin: 0 auto;
+}
+
+.input-style {
+    display: flex;
+    flex-direction: column;
 }
 
 label {
-    font-size: 18px;
+    font-size: 1.5rem;
 }
 
 input {
-    border: 2px solid blue;
-    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 0.55em;
+    font-size: 1.125rem;
+}
+
+input:disabled {
+    background-color: #ffbf69;
+    color: black;
 }
 
 button {
-    width: 90%;
     margin: 0 auto;
-    padding: 8px;
-    border: 1px solid #023047;
+    padding: 8px 48px;
+    border: none;
     border-radius: 5px;
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 
 .result-container {
     text-align: center;
-    padding: 10px;
+    padding: 0.625em;
 }
 
 .words {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25em;
 }
 
 .words-style {
-    background-color: #023047;
-    padding: 10px;
+    background-color: #ffbf69;
+    padding: 0.625em;
     border-radius: 5px;
-    color: #fefae0;
+    color: black;
 }
 
 .same-letters {
-    color: #affc41;
+    color: #a7c957;
 }
 
 .crossed-letters {
-    color: #8d0801;
+    color: #f25c54;
 }
