@@ -63,7 +63,7 @@ function handleCheckClick(){
         newWordArr = []
     }
     else{
-        resultEl.innerHTML = `<p>Please, add the two words!</p>`
+        resultEl.innerHTML = `<p>Oh, Lord of Words, please, add the two words!</p>`
     }
     
 }
