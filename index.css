@@ -73,7 +73,7 @@ input {
     border-radius: 5px;
     border: none;
     padding: 0.55em;
-    font-size: 1.125rem;
+    font-size: 1.25rem;
 }
 
 input:disabled {
@@ -111,8 +111,10 @@ button {
 
 .same-letters {
     color: #a7c957;
+    font-size: 1.25rem;
 }
 
 .crossed-letters {
+    font-size: 1.25rem;
     color: #f25c54;
 }
